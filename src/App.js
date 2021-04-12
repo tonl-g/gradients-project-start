@@ -10,7 +10,7 @@ function App() {
     <>
       <GradientHeader />
       <GradientApp />
-      < Footer />
+      <Footer />
     </>
   )
 }
