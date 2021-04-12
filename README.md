@@ -1,4 +1,4 @@
-# Projet Gradients  Ton-LY Carlos Emmanuel Amine
+# Projet Gradients  Ton Carlos Emmanuel Amine
 
 Dans ce challenge vous avez pour but de construire une application web _monopage_ [comme celle-ci.](https://alyra-gradients-bonus.netlify.app/)
 
