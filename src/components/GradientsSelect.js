@@ -1,11 +1,12 @@
 const GradientSelect = (props) => {
   const { uniqueTags } = props
+  console.log(uniqueTags)
   return (
     <>
-      <div class="input-group mb-3"><label class="input-group-text" for="select">Filtrer par tag</label><select
-        class="form-select" id="select">
+      <div className="input-group mb-3"><label className="input-group-text" htmlFor="select">Filtrer par tag</label><select
+        className="form-select" key="select">
         <option value="all">Tous</option>
-        {uniqueTags.map(tag => <option value="gris">gris</option>)}
+        {uniqueTags.map(tag => <option value={tag}>{tag}</option>)}
 
       </select></div>
     </>
