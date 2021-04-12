@@ -5,10 +5,11 @@ import GradientsList from "./GradientsList"
 const GradientApp = () => {
 
   return (
-    < div className ="container">
+    < main className ="container">
+      <h1 class="text-center my-4">Alyra Gradients</h1>
       <GradientsSelect />
       < GradientsList/>
-    </div>
+    </main>
   )
 }
 
