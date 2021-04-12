@@ -3,9 +3,6 @@ const GradientTag = (props) => {
   const handleClick = (event) => {
     event.preventDefault()
     setFilter(event.target.textContent)
-    console.log(event.target.textContent)
-    console.log(filter)
-    
   }
  
   return(
