@@ -1,5 +1,6 @@
 import Gradient from "./Gradient"
-const GradientsList = () => {
+const GradientsList = (props) => {
+  const { gradients, uniqueTags } = props
   return (
     <ul className="row list-unstyled">
       <Gradient
