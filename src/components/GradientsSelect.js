@@ -1,6 +1,5 @@
 const GradientSelect = (props) => {
   const { uniqueTags } = props
-  console.log(uniqueTags)
   return (
     <>
       <div className="input-group mb-3"><label className="input-group-text" htmlFor="select">Filtrer par tag</label><select

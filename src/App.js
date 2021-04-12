@@ -10,7 +10,7 @@ function App() {
     <>
       <GradientHeader gradients={gradients} />
       <GradientApp gradients={gradients} uniqueTags={uniqueTags} />
-      < Footer />
+      <Footer />
     </>
   )
 }
