@@ -5,7 +5,7 @@ import GradientTag from "./GradientTag"
 
 
 const Gradient = (props) => {
-  const {colorStart, colorEnd, name,tags,setFilter} =props
+  const {colorStart, colorEnd, name,tags,filter,setFilter} =props
  
   return (
     <li className="col-lg-3 col-md-4 col-sm-6">
@@ -16,6 +16,7 @@ const Gradient = (props) => {
         <GradientTag 
           tags={tags}
           setFilter={setFilter}
+          filter={filter}
          />
       </div>
     </li>
