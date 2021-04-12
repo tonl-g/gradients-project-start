@@ -5,7 +5,6 @@ const GradientsList = (props) => {
   let filteredList = ""
   filter === "Tous" ? filteredList=gradients : filteredList = gradients.filter(el => el.tags.includes(filter))
  
-  // filter !== "" ? filtered 
 
 
   return (
@@ -18,8 +17,6 @@ const GradientsList = (props) => {
           name={elem.name}
           tags={elem.tags}
           handleChange={handleChange}
-          filter={filter}
-
         />
       )}
     </ul>
