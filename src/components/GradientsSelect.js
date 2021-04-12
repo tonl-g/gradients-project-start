@@ -1,24 +1,19 @@
 import {uniqueTags} from '../gradients'
-import { useState } from "react"
 
-const GradientSelect = () => {
-  const [filter, useFilter] = useState("Tous")
-  const FilterSelect = (event) => {
-    useFilter(event.target.value);
-  };
-
+const GradientsSelect = (props) => {
+ const {handleChange} = props
   return (
     <>
       <div className="input-group mb-3"><label className="input-group-text" htmlFor="select">Filtrer par tag</label>
       <select
-        className="form-select" key="select">
-        <option value="all">Tous</option>
+        className="form-select" key="select"
+        onChange={handleChange}
+        >
+        <option value="Tous">Tous</option>
         {uniqueTags.map(tag => <option key={tag} value={tag}>{tag}</option>)}
-        onChange={FilterSelect}
-
       </select>
       </div>
     </>
   )
 }
-export default GradientSelect
+export default GradientsSelect

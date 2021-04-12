@@ -5,7 +5,7 @@ import { gradients } from '../gradients'
 const getRandomInt = (max) => {
 return Math.floor(Math.random() * max);
 }
-const Header = () => {
+const GradientsHeader = () => {
   const[countGradient,setCountGradient]=useState(getRandomInt(25))
 
   const handleClickNext = () => {
@@ -58,4 +58,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default GradientsHeader
