@@ -1,5 +1,4 @@
-const Header = (props) => {
-  const {gradients} = props
+const Header = () => {
   return (
     <>
       <header className="text-center bg-dark text-white py-5 mb-5"
