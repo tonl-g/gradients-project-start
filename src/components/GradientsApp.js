@@ -1,12 +1,12 @@
-import GradientSelect from "./GradientSelect"
-import GradientList from "./GradientList"
+import GradientsSelect from "./GradientsSelect"
+import GradientsList from "./GradientsList"
 
 const GradientApp = (props) => {
   const { gradients, uniqueTags } = props
 
   return (
     <>
-      <GradientSelect
+      <GradientsSelect
         uniqueTags={uniqueTags} />
       < GradientsList
         gradients={gradients}
