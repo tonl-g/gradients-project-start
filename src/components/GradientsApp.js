@@ -1,6 +1,7 @@
 import GradientsSelect from "./GradientsSelect"
 import GradientsList from "./GradientsList"
 
+
 const GradientApp = (props) => {
   const { gradients, uniqueTags } = props
 
