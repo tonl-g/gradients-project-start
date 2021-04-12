@@ -35,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Benmissi-A/gradients-project-start.git",
+  "author": "Benmissi-A <aminebenmissi@hotmail.fr>",
+  "license": "MIT"
 }
