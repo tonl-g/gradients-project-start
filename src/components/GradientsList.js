@@ -1,9 +1,12 @@
 import Gradient from "./Gradient"
 import {gradients} from '../gradients'
 const GradientsList = (props) => {
-  const {filter,handleChange} =props
+  const {filter,setFilter,handleChange,handleClick} =props
   let filteredList = ""
+  console.log(filter)
   filter === "Tous" ? filteredList=gradients : filteredList = gradients.filter(el => el.tags.includes(filter))
+
+
  
 
 
@@ -17,6 +20,9 @@ const GradientsList = (props) => {
           name={elem.name}
           tags={elem.tags}
           handleChange={handleChange}
+          filter={filter}
+          setFilter={setFilter}
+
         />
       )}
     </ul>

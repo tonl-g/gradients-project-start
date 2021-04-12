@@ -3,8 +3,10 @@ import GradientCode from "./GradientCode"
 import GradientPill from "./GradientPill"
 import GradientTag from "./GradientTag"
 
+
 const Gradient = (props) => {
-  const {colorStart, colorEnd, name, tags ,handleChange} =props
+  const {colorStart, colorEnd, name,tags,setFilter} =props
+ 
   return (
     <li className="col-lg-3 col-md-4 col-sm-6">
       <div className="card p-3 mb-4 shadow">
@@ -13,7 +15,7 @@ const Gradient = (props) => {
         <GradientCode colorStart={colorStart} colorEnd={colorEnd} />
         <GradientTag 
           tags={tags}
-          handleChange={handleChange} 
+          setFilter={setFilter}
          />
       </div>
     </li>

@@ -1,8 +1,9 @@
 const GradientTag = (props) => {
-  const {tags,handleChange} = props
+  const {tags,setFilter} = props
   const handleClick = (event) => {
     event.preventDefault()
-    handleChange(event)
+    setFilter(event.target.value)
+    
   }
  
   return(
