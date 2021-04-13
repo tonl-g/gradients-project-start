@@ -15,4 +15,5 @@ const GradientTag = (props) => {
   </div>
   )
 }
+
 export default GradientTag
