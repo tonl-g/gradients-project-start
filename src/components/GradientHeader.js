@@ -6,7 +6,7 @@ const getRandomInt = (max) => {
 return Math.floor(Math.random() * max);
 }
 const GradientsHeader = () => {
-  const[countGradient,setCountGradient]=useState(getRandomInt(25))
+  const[countGradient,setCountGradient]=useState(getRandomInt(gradients.length))
 
   const handleClickNext = () => {
     countGradient === gradients.length-1 ? setCountGradient(0) : setCountGradient(countGradient+1)
