@@ -15,7 +15,7 @@ const GradientsApp = () => {
     <main className ="container">
       <h1 className="text-center my-4">Alyra Gradients</h1>
       <GradientsSelect handleChange={handleChange} filter={filter} />
-      <GradientsList handleChange={handleChange} filter={filter} setFilter={setFilter}/>
+      <GradientsList filter={filter} setFilter={setFilter}/>
     </main>
   )
 }
