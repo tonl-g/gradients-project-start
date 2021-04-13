@@ -2,9 +2,9 @@ import Gradient from "./Gradient"
 import {gradients} from '../gradients'
 
 const GradientsList = (props) => {
-  const {filter,setFilter,handleChange} =props
+  const {filter,setFilter,handleChange} = props
   let filteredList = ""
-  filter === "All" ? filteredList=gradients : filteredList = gradients.filter(el => el.tags.includes(filter))
+  filter === "All" ? filteredList = gradients : filteredList = gradients.filter(el => el.tags.includes(filter))
 
   return (
     <ul className="row list-unstyled">
