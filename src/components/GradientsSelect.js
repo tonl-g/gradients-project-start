@@ -16,4 +16,5 @@ const GradientsSelect = (props) => {
     </>
   )
 }
+
 export default GradientsSelect

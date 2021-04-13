@@ -2,7 +2,6 @@ import GradientsSelect from "./GradientsSelect"
 import GradientsList from "./GradientsList"
 import {useState} from "react"
 
-
 const GradientsApp = () => {
   const[filter, setFilter] = useState("All")
   
